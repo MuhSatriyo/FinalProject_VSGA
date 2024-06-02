@@ -1,0 +1,97 @@
+/* CSS Navbar */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+.par-1 {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    width: auto;
+    background-color: #0058f2;
+    z-index: 10;
+  }
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.btn-outline-warning.custom-color {
+  --bs-btn-color: #f1f104;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: #f1f104;
+  --bs-btn-active-bg: #f1f104;
+}
+
+.btn-custom-size {
+  height: 40px;
+  width: 180px;
+}
+
+.btn-custom-size a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+/* End CSS Navbar */
+
+/* CSS Content */
+.title-content {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.title-content h4 {
+  font-weight: bold;
+}
+
+.custom-button {
+  width: 200px;
+  height: 35px;
+  font-weight: bold;
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: #f1f104;
+  --bs-btn-hover-color: black;
+}
+
+.custom-button:hover {
+  color: black !important;
+}
+.costum-container {
+  min-height: 1000px;
+}
+/* End CSS Content */
+
+/* CSS Footer */
+.custom-footer {
+  height: 40px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+/* End CSS Footer */
